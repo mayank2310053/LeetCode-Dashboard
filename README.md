@@ -1,1 +1,2 @@
 # LeetCode-Dashboard
+LeetCode-Dashboard is a responsive web application that visualizes LeetCode user statistics in an interactive and user-friendly dashboard. Users can search for a LeetCode username to view problem-solving progress across Easy, Medium, and Hard difficulty levels, along with submission statistics and coding performance insights. Built with HTML, CSS, and JavaScript, the project features dynamic progress indicators, real-time data fetching, and a modern responsive design.
