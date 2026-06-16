@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode-Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>LeetCode-Dashboard</h1>
+
+    <div class="user-container">
+        <p>Enter your LeetCode Username</p>
+
+        <div class="input-container">
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Enter username"
+            >
+
+            <button id="search-btn">
+                Search
+            </button>
+        </div>
+    </div>
+
+    <div class="stats-container">
+
+        <div class="progress">
+
+            <div class="progress-item">
+                <div class="circle easy-progress">
+                    <span id="easy-label">0/0</span>
+                </div>
+                <p>Easy</p>
+            </div>
+
+            <div class="progress-item">
+                <div class="circle medium-progress">
+                    <span id="medium-label">0/0</span>
+                </div>
+                <p>Medium</p>
+            </div>
+
+            <div class="progress-item">
+                <div class="circle hard-progress">
+                    <span id="hard-label">0/0</span>
+                </div>
+                <p>Hard</p>
+            </div>
+
+        </div>
+
+        <div class="stats-cards"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
